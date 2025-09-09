@@ -66,7 +66,6 @@ header h3 {
 
 .block2{
     box-sizing: border-box;
-    display: inline-block;
     overflow: auto;
     padding: 5px 10px;
 	float: left;
@@ -79,7 +78,6 @@ header h3 {
 
 .block3{
     box-sizing: border-box;
-    display: inline-block;
     overflow: auto;
     padding: 5px 10px;
 	float: left;
@@ -91,7 +89,6 @@ header h3 {
 			
 .block4{
     box-sizing: border-box;
-    display: inline-block;
     overflow: auto;
     padding: 5px 10px;
 	float: right;
@@ -104,7 +101,6 @@ header h3 {
 
 .block5{
     box-sizing: border-box;
-    display: inline-block;
     overflow: auto;
     padding: 5px 10px;
 	float: left;
@@ -116,7 +112,6 @@ header h3 {
 
 .block6{
     box-sizing: border-box;
-    display: inline-block;
     overflow: auto;
     padding: 5px 10px;
 	float: right;
