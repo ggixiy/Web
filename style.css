@@ -1,17 +1,20 @@
 
-body {
+html, body {
     margin: 0;
+    padding: 0;
     font-family: "Times New Roman";
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 			
 header {
-	position: fixed;
+	position: relative;
 	top: 0;
 	left: 0;
 	background-color: rgb(129, 136, 144);
-	width: 100%;
 	text-align: right;
-	height: 10%;
+	flex: 0 0 80px;
     box-sizing: border-box;
     overflow: hidden;
     line-height: 3vh;
@@ -44,92 +47,74 @@ header h3 {
 }
 
 .content {
-    width: 100vw;
-	position: absolute;
-    top: 10%;      
-    bottom: 10%;  
-    left: 0;
-    right: 0;
+    box-sizing: border-box;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
 }
 			
 .right {
-	float: right;
-    width: 45vw;
-	height: 100%;
+    flex: 1 1 42%;
+    display: flex;
+    flex-direction: column;
 }
 
 .right2 {
-	float: right;
-    width: 45vw;
-	height: 65%;
+    flex: 1;
+    display: flex;
+    gap: 20px;
 }
 
 .block2{
     box-sizing: border-box;
-    overflow: auto;
     padding: 5px 10px;
-	float: left;
+	flex: 1 1 23%;
 	background-color: rgb(169, 174, 176);
 	text-align: center;
-	width: 24.5vw;
-	margin-right: 3vw;
-	height: 100%;
 }
 
 .block3{
     box-sizing: border-box;
-    overflow: auto;
     padding: 5px 10px;
-	float: left;
+	flex: 1 1 23%;
 	background-color: rgb(190, 194, 196);
 	text-align: center;
-	width: 24vw;
-	height: 100%;
 }
 			
 .block4{
     box-sizing: border-box;
-    overflow: auto;
     padding: 5px 10px;
-	float: right;
+	flex: 0 0 auto;
 	background-color: rgb(171, 173, 173);
 	text-align: center;
-    width: 45vw;
-	height: 35%;
     font-size: large;
 }
 
 .block5{
-    box-sizing: border-box;
-    overflow: auto;
-    padding: 5px 10px;
-	float: left;
 	background-color: rgb(207, 212, 213);
 	text-align: left;
-	width: 48%;
-	height: 100%;
 }
 
 .block6{
-    box-sizing: border-box;
-    overflow: auto;
-    padding: 5px 10px;
-	float: right;
 	background-color: rgb(230, 237, 238);
 	text-align: center;
-	width: 48%;
-	height: 100%;
 	margin-left: 4%;
+}
+
+.block5, .block6{
+    box-sizing: border-box;
+    padding: 5px 10px;
+	flex: 1;
 }
 			
 footer{
-	position: fixed;
+	position: relative;
 	bottom: 0;
 	left: 0;
-	width: 100vw;
 	background-color: rgb(129, 136, 144);
 	text-align: left;
-	height: 10%;
+	flex: 0 0 80px;
     box-sizing: border-box;
     overflow: hidden;
     line-height: 3vh
