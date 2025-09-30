@@ -1,0 +1,143 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman";
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+			
+header {
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: rgb(129, 136, 144);
+	text-align: right;
+	flex: 0 0 80px;
+    box-sizing: border-box;
+    overflow: hidden;
+    line-height: 3vh;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+    margin: 0;
+    width: 60vw;
+    font-size: 2.5vw;
+}
+
+header h3 {
+    position: absolute;
+    top: 50%;             
+    left: 10px;
+    transform: translate(0, -50%);
+    margin: 0;
+    padding: 5px 10px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 40vw;
+    text-align: center;
+    font-size: 1.75vw;
+}
+
+.content {
+    box-sizing: border-box;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+
+.block2{
+    box-sizing: border-box;
+    padding: 5px 10px;
+	flex: 1 1 100%;
+	background-color: rgb(230, 237, 238);
+	text-align: center;
+}
+
+.block3{
+    box-sizing: border-box;
+    padding: 5px 10px;
+	flex: 1 1 100%;
+	background-color: rgb(230, 237, 238);
+	text-align: center;
+}
+			
+.block4{
+    box-sizing: border-box;
+    padding: 5px 10px;
+	flex: 0 0 auto;
+	background-color: rgb(230, 237, 238);
+	text-align: center;
+    font-size: large;
+}
+
+.block5{
+	background-color:rgb(230, 237, 238);
+	text-align: left;
+}
+
+.block6{
+	background-color: rgb(230, 237, 238);
+	text-align: center;
+}
+
+.block5, .block6{
+    box-sizing: border-box;
+    padding: 5px 10px;
+	flex: 1;
+}
+			
+footer{
+	position: relative;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(129, 136, 144);
+	text-align: left;
+	flex: 0 0 80px;
+    box-sizing: border-box;
+    overflow: hidden;
+    line-height: 3vh
+}
+
+footer h2 {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+    margin: 0;
+    font-size: 2vw;
+}
+
+footer h5 {
+    position: absolute;
+    top: 50%;             
+    right: 10px;
+    transform: translate(0, -50%);
+    margin: 0;
+    padding: 5px 10px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+}
+
+a.class1 {
+    color: rgb(58, 81, 109);
+    text-decoration: none;
+}
+
+ol.class {
+    list-style-position: inside; 
+    text-align: center; 
+    font-size: x-large;
+    color: rgb(58, 81, 109);
+}
