@@ -153,7 +153,7 @@ ol.class {
 
 @media (max-width: 768px) {
 .right, .right2, .content {
-    display: block;
+    display: contents;
   }
 
 .block2{
